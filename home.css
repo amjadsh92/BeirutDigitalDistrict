@@ -1,4 +1,10 @@
+
+ 
+  
+
+
 .homeImage{
-    background-image: url(images/slide1.jpg) ;
-    height:1024px
+    background-image: url(images/slide2.jpg) ;
+    height:1024px;
+    filter:brightness(80%)
 }
