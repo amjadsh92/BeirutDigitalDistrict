@@ -1,0 +1,18 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    display: flex;
+    background-color: grey
+
+}
+
+.navbar > img{
+    width:94px;
+    height:127px
+}
