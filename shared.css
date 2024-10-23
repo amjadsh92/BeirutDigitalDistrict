@@ -7,12 +7,38 @@
 }
 
 .navbar{
+    padding:20px;
     display: flex;
-    background-color: grey
+    background-color: grey;
+    flex-direction: row;
+    object-fit: cover;
+
+    
+    
 
 }
+
+
 
 .navbar > img{
     width:94px;
-    height:127px
+    height:127px;
+    margin-left: 10%;
 }
+
+.navbar ul{
+    margin-left:250px;
+    list-style:none;
+    display:flex;
+    float:right;
+    align-items: center;
+    justify-content:space-evenly
+}
+
+.navbar ul > li{
+    margin:15px;
+    font-family:"TheMixSemiBold-Plain";
+    font-size: 0.85rem;
+    color: #ffffff;
+}
+
