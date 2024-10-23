@@ -1,10 +1,59 @@
-
+@font-face {
+    font-family: "TheMixSemiBold-Plain";
+    src: url("fonts/TheMixSemiBold-Plain.otf");
+  }
  
   
 
 
-.homeImage{
+.homeImage {
     background-image: url(images/slide2.jpg) ;
-    height:1024px;
-    filter:brightness(80%)
+    height:800px;
+    /*filter:brightness(80%); */
+    position: relative
+}
+
+
+
+.homeImage h2{
+    margin: auto;
+    font-family:"TheMixSemiBold-Plain";
+    color:  #ffffff;
+    font-weight:950px;
+    font-size:50px;
+    text-align:center;
+    width:75%;
+    
+}
+
+.title{
+    width:100%;
+    position:absolute;
+    bottom:10%
+}
+
+.foundations{
+    position:relative;
+    height:500px
+}
+
+.foundations h3{
+
+    margin: auto;
+    font-family:"TheMixSemiBold-Plain";
+    color:  Black;
+    font-weight:950px;
+    font-size:30px;
+    text-align:center;
+    width:75%;
+    
+
+
+
+}
+
+.foundationsTitle{
+    position:absolute;
+    top:10%;
+    width: 100%
 }
