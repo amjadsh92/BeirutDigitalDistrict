@@ -34,7 +34,8 @@
 
 .foundations{
     position:relative;
-    height:500px
+    background-color: #F5F5F5;
+    height:600px
 }
 
 .foundations h3{
@@ -53,7 +54,32 @@
 }
 
 .foundationsTitle{
-    position:absolute;
-    top:10%;
+    
+    padding-top:25px;
     width: 100%
+}
+
+
+.boxes{
+padding-top:40px;    
+display:flex;
+justify-content: space-evenly;
+width:100%;
+
+
+
+
+}
+
+.boxes > div{
+
+display:flex;
+
+flex-direction: column; 
+width:250px;
+height:400px;
+background-color: white; 
+
+
+
 }
